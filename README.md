@@ -41,13 +41,13 @@ A web-based platform for pet owners and veterinarians to manage appointments, me
 ## 📸 Screenshots
 
 ### Medical Records & Prescription
-![Medical Records](images/medical_records.png)
+![Medical Records](medical_records.png)
 
 ### Veterinarian Dashboard
 ![Vet Dashboard](Veterinarian-Dashboard.png)
 
 ### Book Appointment Form
-![Book Appointment](Book_Appointment.png)
+![Book Appointment](Book-Appointment.png)
 
 ### Pet Owner's Appointments
 ![Pet Owner Appointments](Your-Appointments.png)
