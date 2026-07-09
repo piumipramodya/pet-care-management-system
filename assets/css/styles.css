@@ -1,0 +1,238 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c2c2c; /* Dark gray background */
+    color: #ffffff; /* White text color */
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #4caf50; /* Green links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+    color: #45a049; /* Slightly darker green on hover */
+}
+
+h1, h2 {
+    color: #ffcc00; /* Yellow headings */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styling for Unordered Lists */
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+/* Buttons */
+button, .btn {
+    background-color: #4caf50; /* Green button */
+    color: white;
+    border: none;
+    padding: 8px 12px; /* Reduced padding */
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px; /* Smaller font size */
+    text-align: center;
+}
+
+button:hover, .btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.btn-secondary {
+    background-color: #555; /* Dark gray button */
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 12px; /* Reduced padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.btn-secondary:hover {
+    background-color: #444; /* Darker gray on hover */
+}
+
+.btn-danger {
+    background-color: #ff4d4d; /* Red button */
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-danger:hover {
+    background-color: #ff3333; /* Darker red on hover */
+}
+
+.disabled {
+    color: #888;
+    pointer-events: none; /* Disabled pointer events */
+}
+
+/* Feedback Message (Error or Success) */
+.error {
+    color: #ff0000; /* Red text for errors */
+    background-color: #ffe6e6; /* Light red background */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ff0000; /* Red border */
+    border-radius: 5px;
+    text-align: center;
+}
+
+.feedback {
+    color: #3c763d; /* Dark green text for success */
+    background-color: #dff0d8; /* Light green background */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #4caf50; /* Green border */
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    max-width: 800px; /* Adjusted width for larger screens */
+    margin: 50px auto; /* Centered vertically and horizontally */
+    padding: 20px;
+    background-color: #333; /* Dark container background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    text-align: center;
+    color: #ffffff; /* White text inside containers */
+}
+
+/* Forms */
+form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff; /* White text for labels */
+    text-align: left;
+    font-weight: bold;
+}
+
+form input,
+form select {
+    width: 100%; /* Full width */
+    padding: 10px;
+    margin: 10px 0; /* Consistent margin between inputs */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background for inputs */
+    color: #333; /* Dark text for inputs */
+    font-size: 16px;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+/* Specific Styling for Date and DateTime Inputs */
+form input[type="date"],
+form input[type="datetime-local"] {
+    appearance: none; /* Remove browser-specific styling */
+    -webkit-appearance: none; /* Safari/Chrome fix */
+    -moz-appearance: none; /* Firefox fix */
+    width: 100%; /* Ensure full width */
+    padding: 10px; /* Match padding with other inputs */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px; /* Consistent spacing */
+}
+
+/* Lists */
+ul {
+    margin: 20px 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #4caf50; /* Green background for table headers */
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray for even rows */
+}
+
+table tr:hover {
+    background-color: #ddd; /* Light hover effect */
+}
+
+/* Spacing for Form Elements */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #ffffff; /* White labels */
+}
+
+/* Miscellaneous */
+hr {
+    border: 1px solid #444; /* Subtle divider */
+    margin: 20px 0;
+}
+
+/* Search and Filter Button Spacing */
+.search-container {
+    margin-bottom: 10px; /* Reduced space below search bar */
+}
+
+.filter-buttons {
+    margin-top: 10px; /* Space above filter buttons */
+}
+
+/* Button size reduction */
+button, .btn, .toggle {
+    font-size: 14px; /* Smaller font size */
+    padding: 8px 12px; /* Reduced padding */
+}
+
+.filter-buttons button {
+    font-size: 14px; /* Smaller font size for filter buttons */
+    padding: 8px 12px; /* Smaller button padding */
+}
+
+
