@@ -40,7 +40,26 @@ A web-based platform for pet owners and veterinarians to manage appointments, me
 
 ## 📸 Screenshots
 
-(Add your screenshots here later)
+### Medical Records & Prescription
+![Medical Records](images/medical_records.png)
+
+### Veterinarian Dashboard
+![Vet Dashboard](Veterinarian-Dashboard.png)
+
+### Book Appointment Form
+![Book Appointment](Book_Appointment.png)
+
+### Pet Owner's Appointments
+![Pet Owner Appointments](Your-Appointments.png)
+
+### User Dashboard
+![User Dashboard](Dashboard.png)
+
+### Login Page
+![Login Page](Login-Pet-Care-System.png)
+
+### Welcome Page
+![Welcome Page](Welcome-to-Pet-Care-System.png)
 
 ## 📌 Note
 
